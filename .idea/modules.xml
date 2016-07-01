@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collection01/Collection01.iml" filepath="$PROJECT_DIR$/Collection01/Collection01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8Demo.iml" filepath="$PROJECT_DIR$/Java8Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object01/Object01.iml" filepath="$PROJECT_DIR$/Object01/Object01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object02/Object02.iml" filepath="$PROJECT_DIR$/Object02/Object02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object03/Object03.iml" filepath="$PROJECT_DIR$/Object03/Object03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object04/Object04.iml" filepath="$PROJECT_DIR$/Object04/Object04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object05/Object05.iml" filepath="$PROJECT_DIR$/Object05/Object05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object06/Object06.iml" filepath="$PROJECT_DIR$/Object06/Object06.iml" />
       <module fileurl="file://$PROJECT_DIR$/foundation/foundation.iml" filepath="$PROJECT_DIR$/foundation/foundation.iml" />
     </modules>
   </component>

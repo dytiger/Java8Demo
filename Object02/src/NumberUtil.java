@@ -8,6 +8,9 @@ public class NumberUtil {
     // 即当类的字节码加载到内存中后，就生成了，这个变量可以被对象共享
     private static Random random = new Random();
 
+    private NumberUtil() {
+    }
+
     // static修饰的方法被称为静态方法，它是类级别的，
     // 即当类的字节码加载到内存中后，就可以调用此种方法，
     // 通常使用类名.静态方法名的形式调用：
