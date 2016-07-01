@@ -33,5 +33,12 @@ public class ListDemo02 {
             apple.setWeigth(apple.getWeigth()*5);
             System.out.println(apple);
         }
+
+        System.out.println("=======================");
+
+        Apple[] appleArr = appleBag.toArray(new Apple[appleBag.size()]);
+        for(Apple a : appleArr){
+            System.out.println(a);
+        }
     }
 }
