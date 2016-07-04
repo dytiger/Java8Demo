@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Object04/Object04.iml" filepath="$PROJECT_DIR$/Object04/Object04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object05/Object05.iml" filepath="$PROJECT_DIR$/Object05/Object05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object06/Object06.iml" filepath="$PROJECT_DIR$/Object06/Object06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/foundation/foundation.iml" filepath="$PROJECT_DIR$/foundation/foundation.iml" />
     </modules>
   </component>

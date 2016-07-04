@@ -3,7 +3,7 @@ package org.forten.sample.coll;
 /**
  * Created by Administrator on 2016/7/1.
  */
-public class Apple {
+public class Apple implements Comparable<Apple>{
     private String name;
     private String color;
     private int weigth;
@@ -36,6 +36,17 @@ public class Apple {
 
     public void setWeigth(int weigth) {
         this.weigth = weigth;
+    }
+
+    @Override
+    public int compareTo(Apple o) {
+        if(this.weigth<o.getWeigth()){
+            return -1;
+        }else if(this.weigth>o.getWeigth()){
+            return 1;
+        }else{
+            return 0;
+        }
     }
 
     @Override
