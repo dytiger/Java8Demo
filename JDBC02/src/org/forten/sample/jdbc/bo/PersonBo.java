@@ -66,6 +66,37 @@ public class PersonBo {
         return personList;
     }
 
+    public static List<Person> queryUser(String name){
+        Connection conn = JDBCUtil.getOracleConnection();
+        String sql = "SELECT * FROM hr.test_person WHERE id!=1 ";
+        if(name!=null&&name.length()>0){
+            sql = sql + "AND name LIKE '%"+name+"%'";
+        }
+        System.out.println(sql);
+        Statement stat = null;
+        ResultSet rs = null;
+        List<Person> personList = new ArrayList<>();
+        try {
+            stat = conn.createStatement();
+            rs = stat.executeQuery(sql);
+            while (rs.next()){
+                Person p = new Person();
+                p.setId(rs.getInt(1));
+                p.setName(rs.getString(2));
+                p.setEmail(rs.getString(3));
+                p.setAge(rs.getInt(4));
+
+                personList.add(p);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            JDBCUtil.close(conn,stat,rs);
+        }
+
+        return personList;
+    }
+
     private static int execute(Connection conn, Statement stat, String sql) {
         int count = -1;
         try {
